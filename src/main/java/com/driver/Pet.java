@@ -8,6 +8,10 @@ public class Pet {
 
     public Pet(String name, int lifespan, String dietaryNeeds, int maintenanceLevel) {
     	// your code goes here
+        this.name=name;
+        this.lifespan=lifespan;
+        this.dietaryNeeds=dietaryNeeds;
+        this.maintenanceLevel=maintenanceLevel;
     }
 
     public int getLifespan() {
